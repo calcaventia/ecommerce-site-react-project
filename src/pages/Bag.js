@@ -23,7 +23,11 @@ const Bag = () => {
         <div className={styles.bagContents}>
           <div className={styles.itemInBag}>
             <div className={styles.productImage}>
-              <img className={styles.imageIcon} alt="" src="/image@2x.png" />
+              <img
+                className={styles.imageIcon}
+                alt=""
+                src="/bag/image@2x.png"
+              />
             </div>
             <div className={styles.contentArea}>
               <div className={styles.header1}>
@@ -41,11 +45,31 @@ const Bag = () => {
               </div>
               <div className={styles.rating}>
                 <div className={styles.stars}>
-                  <img className={styles.star01Icon} alt="" src="/star01.svg" />
-                  <img className={styles.star01Icon} alt="" src="/star01.svg" />
-                  <img className={styles.star01Icon} alt="" src="/star01.svg" />
-                  <img className={styles.star01Icon} alt="" src="/star01.svg" />
-                  <img className={styles.star01Icon} alt="" src="/star05.svg" />
+                  <img
+                    className={styles.star01Icon}
+                    alt=""
+                    src="/bag/star01.svg"
+                  />
+                  <img
+                    className={styles.star01Icon}
+                    alt=""
+                    src="/bag/star01.svg"
+                  />
+                  <img
+                    className={styles.star01Icon}
+                    alt=""
+                    src="/bag/star01.svg"
+                  />
+                  <img
+                    className={styles.star01Icon}
+                    alt=""
+                    src="/bag/star01.svg"
+                  />
+                  <img
+                    className={styles.star01Icon}
+                    alt=""
+                    src="/bag/star05.svg"
+                  />
                 </div>
                 <div className={styles.loremIpsumDolor}>4.5 / 5</div>
               </div>
@@ -58,11 +82,15 @@ const Bag = () => {
                 <div className={styles.quantity}>
                   <div className={styles.price1}>
                     <div className={styles.increaseButton}>
-                      <img className={styles.icon} alt="" src="/icon.svg" />
+                      <img className={styles.icon} alt="" src="/bag/icon.svg" />
                     </div>
                     <div className={styles.checkYourBag}>1</div>
                     <div className={styles.increaseButton}>
-                      <img className={styles.icon} alt="" src="/icon1.svg" />
+                      <img
+                        className={styles.icon}
+                        alt=""
+                        src="/bag/icon1.svg"
+                      />
                     </div>
                   </div>
                 </div>
@@ -71,7 +99,11 @@ const Bag = () => {
           </div>
           <div className={styles.itemInBag}>
             <div className={styles.productImage1}>
-              <img className={styles.imageIcon1} alt="" src="/image1@2x.png" />
+              <img
+                className={styles.imageIcon1}
+                alt=""
+                src="/bag/image1@2x.png"
+              />
             </div>
             <div className={styles.contentArea}>
               <div className={styles.header1}>
@@ -89,11 +121,31 @@ const Bag = () => {
               </div>
               <div className={styles.rating}>
                 <div className={styles.stars}>
-                  <img className={styles.star01Icon} alt="" src="/star01.svg" />
-                  <img className={styles.star01Icon} alt="" src="/star01.svg" />
-                  <img className={styles.star01Icon} alt="" src="/star01.svg" />
-                  <img className={styles.star01Icon} alt="" src="/star01.svg" />
-                  <img className={styles.star01Icon} alt="" src="/star05.svg" />
+                  <img
+                    className={styles.star01Icon}
+                    alt=""
+                    src="/bag/star01.svg"
+                  />
+                  <img
+                    className={styles.star01Icon}
+                    alt=""
+                    src="/bag/star01.svg"
+                  />
+                  <img
+                    className={styles.star01Icon}
+                    alt=""
+                    src="/bag/star01.svg"
+                  />
+                  <img
+                    className={styles.star01Icon}
+                    alt=""
+                    src="/bag/star01.svg"
+                  />
+                  <img
+                    className={styles.star01Icon}
+                    alt=""
+                    src="/bag/star05.svg"
+                  />
                 </div>
                 <div className={styles.loremIpsumDolor}>4.5 / 5</div>
               </div>
@@ -106,11 +158,15 @@ const Bag = () => {
                 <div className={styles.quantity}>
                   <div className={styles.price1}>
                     <div className={styles.increaseButton}>
-                      <img className={styles.icon} alt="" src="/icon.svg" />
+                      <img className={styles.icon} alt="" src="/bag/icon.svg" />
                     </div>
                     <div className={styles.checkYourBag}>3</div>
                     <div className={styles.increaseButton}>
-                      <img className={styles.icon} alt="" src="/icon1.svg" />
+                      <img
+                        className={styles.icon}
+                        alt=""
+                        src="/bag/icon1.svg"
+                      />
                     </div>
                   </div>
                 </div>
@@ -119,7 +175,11 @@ const Bag = () => {
           </div>
           <div className={styles.itemInBag}>
             <div className={styles.productImage1}>
-              <img className={styles.imageIcon1} alt="" src="/image2@2x.png" />
+              <img
+                className={styles.imageIcon1}
+                alt=""
+                src="/bag/image2@2x.png"
+              />
             </div>
             <div className={styles.contentArea}>
               <div className={styles.header1}>
@@ -140,24 +200,28 @@ const Bag = () => {
                   <img
                     className={styles.star01Icon}
                     alt=""
-                    src="/star011.svg"
+                    src="/bag/star011.svg"
                   />
                   <img
                     className={styles.star01Icon}
                     alt=""
-                    src="/star011.svg"
+                    src="/bag/star011.svg"
                   />
                   <img
                     className={styles.star01Icon}
                     alt=""
-                    src="/star011.svg"
+                    src="/bag/star011.svg"
                   />
                   <img
                     className={styles.star01Icon}
                     alt=""
-                    src="/star011.svg"
+                    src="/bag/star011.svg"
                   />
-                  <img className={styles.star01Icon} alt="" src="/star05.svg" />
+                  <img
+                    className={styles.star01Icon}
+                    alt=""
+                    src="/bag/star05.svg"
+                  />
                 </div>
                 <div className={styles.loremIpsumDolor}>4.5 / 5</div>
               </div>
@@ -170,11 +234,15 @@ const Bag = () => {
                 <div className={styles.quantity}>
                   <div className={styles.price1}>
                     <div className={styles.increaseButton}>
-                      <img className={styles.icon} alt="" src="/icon.svg" />
+                      <img className={styles.icon} alt="" src="/bag/icon.svg" />
                     </div>
                     <div className={styles.checkYourBag}>1</div>
                     <div className={styles.increaseButton}>
-                      <img className={styles.icon} alt="" src="/icon1.svg" />
+                      <img
+                        className={styles.icon}
+                        alt=""
+                        src="/bag/icon1.svg"
+                      />
                     </div>
                   </div>
                 </div>
@@ -183,7 +251,7 @@ const Bag = () => {
           </div>
           <div className={styles.itemInBag}>
             <div className={styles.productImage1}>
-              <img className={styles.imageIcon1} alt="" src="/image3@2x.png" />
+              <img className={styles.imageIcon1} alt="" src="/image2@2x.png" />
             </div>
             <div className={styles.contentArea}>
               <div className={styles.header1}>
@@ -204,27 +272,27 @@ const Bag = () => {
                   <img
                     className={styles.star01Icon}
                     alt=""
-                    src="/star012.svg"
+                    src="/bag/star011.svg"
                   />
                   <img
                     className={styles.star01Icon}
                     alt=""
-                    src="/star012.svg"
+                    src="/bag/star011.svg"
                   />
                   <img
                     className={styles.star01Icon}
                     alt=""
-                    src="/star012.svg"
+                    src="/bag/star011.svg"
                   />
                   <img
                     className={styles.star01Icon}
                     alt=""
-                    src="/star012.svg"
+                    src="/bag/star011.svg"
                   />
                   <img
                     className={styles.star01Icon}
                     alt=""
-                    src="/star012.svg"
+                    src="/bag/star05.svg"
                   />
                 </div>
                 <div className={styles.loremIpsumDolor}>4.5 / 5</div>
@@ -238,11 +306,15 @@ const Bag = () => {
                 <div className={styles.quantity}>
                   <div className={styles.price1}>
                     <div className={styles.increaseButton}>
-                      <img className={styles.icon} alt="" src="/star012.svg" />
+                      <img className={styles.icon} alt="" src="/bag/icon.svg" />
                     </div>
                     <div className={styles.checkYourBag}>2</div>
                     <div className={styles.increaseButton}>
-                      <img className={styles.icon} alt="" src="/star012.svg" />
+                      <img
+                        className={styles.icon}
+                        alt=""
+                        src="/bag/icon1.svg"
+                      />
                     </div>
                   </div>
                 </div>
@@ -256,22 +328,22 @@ const Bag = () => {
         <div className={styles.navLinkstop}>
           <Link to="/Dashboard" className="home-page">
             <div className={styles.logo} onClick={onLogoContainerClick}>
-              <img className={styles.logoChild} alt="" src="/group-1.svg" />
+              <img className={styles.logoChild} alt="" src="/bag/group-1.svg" />
             </div>
           </Link>
           <div className={styles.menuIcon}>
-            <img className={styles.icon8} alt="" src="/icon2.svg" />
+            <img className={styles.icon8} alt="" src="/bag/ icon2.svg" />
           </div>
           <div className={styles.navLink} onClick={onNavLinkContainerClick}>
-            <img className={styles.star01Icon} alt="" src="/icon3.svg" />
+            <img className={styles.star01Icon} alt="" src="/bag/icon3.svg" />
           </div>
           <div className={styles.navLink1}>
-            <img className={styles.star01Icon} alt="" src="/icon4.svg" />
+            <img className={styles.star01Icon} alt="" src="/bag/icon4.svg" />
           </div>
         </div>
         <div className={styles.menuIcon}>
           <div className={styles.navLink2}>
-            <img className={styles.star01Icon} alt="" src="/icon5.svg" />
+            <img className={styles.star01Icon} alt="" src="/bag/icon5.svg" />
           </div>
         </div>
       </div>
@@ -286,7 +358,7 @@ const Bag = () => {
                 <img
                   className={styles.imageIcon4}
                   alt=""
-                  src="/image4@2x.png"
+                  src="/bag/image4@2x.png"
                 />
               </div>
             </div>
@@ -295,7 +367,7 @@ const Bag = () => {
                 <img
                   className={styles.imageIcon1}
                   alt=""
-                  src="/image5@2x.png"
+                  src="/bag/image5@2x.png"
                 />
               </div>
             </div>
@@ -304,7 +376,7 @@ const Bag = () => {
                 <img
                   className={styles.imageIcon1}
                   alt=""
-                  src="/image6@2x.png"
+                  src="/bag/image6@2x.png"
                 />
               </div>
             </div>
@@ -315,7 +387,7 @@ const Bag = () => {
                 <img
                   className={styles.imageIcon1}
                   alt=""
-                  src="/image7@2x.png"
+                  src="/bag/image7@2x.png"
                 />
               </div>
             </div>

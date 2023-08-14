@@ -96,7 +96,7 @@ const AddAddress = () => {
             </div>
           </Link>
           <div className={styles.info}>
-            <img className={styles.icon} alt="" src="/icon.svg" />
+            <img className={styles.icon} alt="" src="/address/icon.svg" />
             <div className={styles.secureConnection}>Secure Connection</div>
           </div>
         </div>

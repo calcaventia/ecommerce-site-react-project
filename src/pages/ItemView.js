@@ -23,7 +23,7 @@ const ItemView = () => {
       <div className={styles.contentFrame}>
         <div className={styles.contentArea}>
           <div className={styles.navLink}>
-            <img className={styles.icon} alt="" src="/icon.svg" />
+            <img className={styles.icon} alt="" src="/itemview/icon.svg" />
             <div className={styles.link}>Back</div>
           </div>
           <div className={styles.topArea}>
@@ -34,7 +34,7 @@ const ItemView = () => {
                     <img
                       className={styles.imageIcon}
                       alt=""
-                      src="/image@2x.png"
+                      src="/itemview/image@2x.png"
                     />
                   </div>
                 </div>
@@ -43,7 +43,7 @@ const ItemView = () => {
                     <img
                       className={styles.imageIcon}
                       alt=""
-                      src="/image@2x.png"
+                      src="/itemview/image@2x.png"
                     />
                   </div>
                 </div>
@@ -52,7 +52,7 @@ const ItemView = () => {
                     <img
                       className={styles.imageIcon}
                       alt=""
-                      src="/image@2x.png"
+                      src="/itemview/image@2x.png"
                     />
                   </div>
                 </div>
@@ -62,7 +62,7 @@ const ItemView = () => {
                   <img
                     className={styles.imageIcon}
                     alt=""
-                    src="/image@2x.png"
+                    src="/itemview/image1@2x.png"
                   />
                 </div>
               </div>
@@ -74,11 +74,31 @@ const ItemView = () => {
               </div>
               <div className={styles.special}>
                 <div className={styles.rating}>
-                  <img className={styles.icon} alt="" src="/star01.svg" />
-                  <img className={styles.icon} alt="" src="/star01.svg" />
-                  <img className={styles.icon} alt="" src="/star01.svg" />
-                  <img className={styles.icon} alt="" src="/star01.svg" />
-                  <img className={styles.icon} alt="" src="/star05.svg" />
+                  <img
+                    className={styles.icon}
+                    alt=""
+                    src="/itemview/star01.svg"
+                  />
+                  <img
+                    className={styles.icon}
+                    alt=""
+                    src="/itemview/star01.svg"
+                  />
+                  <img
+                    className={styles.icon}
+                    alt=""
+                    src="/itemview/star01.svg"
+                  />
+                  <img
+                    className={styles.icon}
+                    alt=""
+                    src="/itemview/star01.svg"
+                  />
+                  <img
+                    className={styles.icon}
+                    alt=""
+                    src="/itemview/star05.svg"
+                  />
                 </div>
                 <div className={styles.div}>4.5 / 5</div>
               </div>
@@ -93,7 +113,11 @@ const ItemView = () => {
               </div>
               <div className={styles.cta}>
                 <div className={styles.button}>
-                  <img className={styles.icon} alt="" src="/icon1.svg" />
+                  <img
+                    className={styles.icon}
+                    alt=""
+                    src="/itemview/icon1.svg"
+                  />
                   <div className={styles.bag}>Add to Bag</div>
                 </div>
               </div>
@@ -157,25 +181,37 @@ const ItemView = () => {
                 <img
                   className={styles.imageIcon4}
                   alt=""
-                  src="/image2@2x.png"
+                  src="/itemview/image2@2x.png"
                 />
               </div>
             </div>
             <div className={styles.bagItem}>
               <div className={styles.productImage4}>
-                <img className={styles.imageIcon} alt="" src="/image3@2x.png" />
+                <img
+                  className={styles.imageIcon}
+                  alt=""
+                  src="/itemview/image3@2x.png"
+                />
               </div>
             </div>
             <div className={styles.bagItem}>
               <div className={styles.productImage4}>
-                <img className={styles.imageIcon} alt="" src="/image4@2x.png" />
+                <img
+                  className={styles.imageIcon}
+                  alt=""
+                  src="/itemview/image4@2x.png"
+                />
               </div>
             </div>
           </div>
           <div className={styles.row1}>
             <div className={styles.bagItem}>
               <div className={styles.productImage4}>
-                <img className={styles.imageIcon} alt="" src="/image5@2x.png" />
+                <img
+                  className={styles.imageIcon}
+                  alt=""
+                  src="/itemview/image5@2x.png"
+                />
               </div>
             </div>
           </div>
@@ -183,7 +219,7 @@ const ItemView = () => {
         <Link to="/Bag" className="bag-list">
           <div className={styles.cta1}>
             <div className={styles.button2} onClick={onButtonContainer1Click}>
-              <img className={styles.icon} alt="" src="/icon2.svg" />
+              <img className={styles.icon} alt="" src="/itemview/icon2.svg" />
               <div className={styles.bag}>View Bag</div>
             </div>
           </div>
@@ -193,24 +229,28 @@ const ItemView = () => {
         <div className={styles.navLinkstop}>
           <Link to="/Dashboard" className="home-page">
             <div className={styles.logo} onClick={onLogoContainerClick}>
-              <img className={styles.logoChild} alt="" src="/group-1.svg" />
+              <img
+                className={styles.logoChild}
+                alt=""
+                src="/itemview/group-1.svg"
+              />
             </div>
           </Link>
           <div className={styles.title}>
-            <img className={styles.icon3} alt="" src="/icon3.svg" />
+            <img className={styles.icon3} alt="" src="/itemview/icon3.svg" />
           </div>
           <Link to="/Bag" className="bag-list">
             <div className={styles.navLink1} onClick={onNavLinkContainer1Click}>
-              <img className={styles.icon} alt="" src="/icon4.svg" />
+              <img className={styles.icon} alt="" src="/itemview/icon4.svg" />
             </div>
           </Link>
           <div className={styles.navLink2} onClick={onNavLinkContainer2Click}>
-            <img className={styles.icon} alt="" src="/icon5.svg" />
+            <img className={styles.icon} alt="" src="/itemview/icon5.svg" />
           </div>
         </div>
         <div className={styles.title}>
           <div className={styles.navLink3}>
-            <img className={styles.icon} alt="" src="/icon6.svg" />
+            <img className={styles.icon} alt="" src="/itemview/icon6.svg" />
           </div>
         </div>
       </div>
