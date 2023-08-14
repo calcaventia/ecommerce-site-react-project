@@ -251,7 +251,11 @@ const Bag = () => {
           </div>
           <div className={styles.itemInBag}>
             <div className={styles.productImage1}>
-              <img className={styles.imageIcon1} alt="" src="/image2@2x.png" />
+              <img
+                className={styles.imageIcon1}
+                alt=""
+                src="/bag/black-phone.png"
+              />
             </div>
             <div className={styles.contentArea}>
               <div className={styles.header1}>
@@ -400,7 +404,7 @@ const Bag = () => {
           </div>
           <Link to="/Checkout" className="checkout-details">
             <div className={styles.button} onClick={onButtonContainerClick}>
-              <img className={styles.star01Icon} alt="" src="/icon6.svg" />
+              <img className={styles.star01Icon} alt="" src="/bag/icon8.svg" />
               <div className={styles.bagTotal}>Checkout</div>
             </div>
           </Link>
