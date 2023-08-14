@@ -336,7 +336,7 @@ const Bag = () => {
             </div>
           </Link>
           <div className={styles.menuIcon}>
-            <img className={styles.icon8} alt="" src="/bag/ icon2.svg" />
+            <img className={styles.icon8} alt="" src="/bag/icon2.svg" />
           </div>
           <div className={styles.navLink} onClick={onNavLinkContainerClick}>
             <img className={styles.star01Icon} alt="" src="/bag/icon3.svg" />

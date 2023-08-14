@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-small-regular-condensed: Cabin;
+
+  /* font sizes */
+  --body-small-regular-condensed-size: 16px;
+  --body-normal-medium-normal-size: 20px;
+
+  /* Colors */
+  --font-white: #fff;
+  --font-success: #02d693;
+  --ui-dark: #1a1f16;
+  --font-placeholder: rgba(26, 31, 22, 0.5);
+  --font-accent: #12805d;
+  --ui-tertiary: #60695c;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+
+  /* border radiuses */
+  --br-smi: 13px;
+}

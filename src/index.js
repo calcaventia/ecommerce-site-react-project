@@ -4,7 +4,11 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import "./global.css";
-
+import "./globalCheckout.css";
+import "./globalPayment.css";
+import "./globalItemView.css";
+import "./globalBag.css";
+import "./globalAddress.css";
 const container = document.getElementById("root");
 const root = createRoot(container);
 
