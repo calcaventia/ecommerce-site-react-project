@@ -172,7 +172,7 @@ const Checkout = () => {
                 <img
                   className={styles.imageIcon1}
                   alt=""
-                  src="/checkout/image1@2x.png"
+                  src="/checkout/blue-phone.png"
                 />
               </div>
               <div className={styles.contentArea}>
@@ -194,27 +194,27 @@ const Checkout = () => {
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star01.svg"
                     />
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star01.svg"
                     />
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star01.svg"
                     />
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star01.svg"
                     />
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star05.svg"
                     />
                   </div>
                   <div className={styles.loremIpsumDolor}>4.5 / 5</div>
@@ -231,7 +231,7 @@ const Checkout = () => {
                         <img
                           className={styles.icon2}
                           alt=""
-                          src="/checkout/star011.svg"
+                          src="/checkout/icon2.svg"
                         />
                       </div>
                       <div className={styles.johnMaker}>3</div>
@@ -239,7 +239,7 @@ const Checkout = () => {
                         <img
                           className={styles.icon2}
                           alt=""
-                          src="/checkout/star011.svg"
+                          src="/checkout/icon3.svg"
                         />
                       </div>
                     </div>
@@ -253,7 +253,7 @@ const Checkout = () => {
                 <img
                   className={styles.imageIcon1}
                   alt=""
-                  src="/checkout/image2@2x.png"
+                  src="/checkout/white-phone.png"
                 />
               </div>
               <div className={styles.contentArea}>
@@ -275,27 +275,27 @@ const Checkout = () => {
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star01.svg"
                     />
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star01.svg"
                     />
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star01.svg"
                     />
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star01.svg"
                     />
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star05.svg"
                     />
                   </div>
                   <div className={styles.loremIpsumDolor}>4.5 / 5</div>
@@ -312,7 +312,7 @@ const Checkout = () => {
                         <img
                           className={styles.icon2}
                           alt=""
-                          src="/checkout/star011.svg"
+                          src="/checkout/icon2.svg"
                         />
                       </div>
                       <div className={styles.johnMaker}>1</div>
@@ -320,7 +320,7 @@ const Checkout = () => {
                         <img
                           className={styles.icon2}
                           alt=""
-                          src="/checkout/star011.svg"
+                          src="/checkout/icon3.svg"
                         />
                       </div>
                     </div>
@@ -334,7 +334,7 @@ const Checkout = () => {
                 <img
                   className={styles.imageIcon1}
                   alt=""
-                  src="/checkout/image2@2x.png"
+                  src="/checkout/black-phone.png"
                 />
               </div>
               <div className={styles.contentArea}>
@@ -356,27 +356,27 @@ const Checkout = () => {
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star01.svg"
                     />
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star01.svg"
                     />
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star01.svg"
                     />
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star01.svg"
                     />
                     <img
                       className={styles.icon}
                       alt=""
-                      src="/checkout/star011.svg"
+                      src="/checkout/star05.svg"
                     />
                   </div>
                   <div className={styles.loremIpsumDolor}>4.5 / 5</div>
@@ -393,7 +393,7 @@ const Checkout = () => {
                         <img
                           className={styles.icon2}
                           alt=""
-                          src="/checkout/star011.svg"
+                          src="/checkout/icon2.svg"
                         />
                       </div>
                       <div className={styles.johnMaker}>2</div>
@@ -401,7 +401,7 @@ const Checkout = () => {
                         <img
                           className={styles.icon2}
                           alt=""
-                          src="/checkout/star011.svg"
+                          src="/checkout/icon3.svg"
                         />
                       </div>
                     </div>
