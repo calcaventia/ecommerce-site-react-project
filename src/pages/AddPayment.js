@@ -39,7 +39,7 @@ const AddPayment = () => {
             </div>
             <div className={styles.inputField}>
               <div className={styles.inputArea1}>
-                <img className={styles.icon} alt="" src="/icon.svg" />
+                <img className={styles.icon} alt="" src="/payment/icon.svg" />
                 <div className={styles.placeholder}>5126-5987-2214-7621</div>
               </div>
             </div>
@@ -53,7 +53,11 @@ const AddPayment = () => {
               </div>
               <div className={styles.inputField}>
                 <div className={styles.inputArea1}>
-                  <img className={styles.icon} alt="" src="/icon1.svg" />
+                  <img
+                    className={styles.icon}
+                    alt=""
+                    src="/payment/icon1.svg"
+                  />
                   <div className={styles.placeholder}>MM / YYYY</div>
                 </div>
               </div>
@@ -86,7 +90,7 @@ const AddPayment = () => {
         <div className={styles.cta}>
           <Link to="/AddAddress" className="address-details">
             <div className={styles.button} onClick={onButtonContainerClick}>
-              <img className={styles.icon} alt="" src="/icon2.svg" />
+              <img className={styles.icon} alt="" src="/payment/icon2.svg" />
               <div className={styles.button1}>Add Payment Method</div>
             </div>
           </Link>
@@ -98,7 +102,7 @@ const AddPayment = () => {
             </div>
           </Link>
           <div className={styles.info}>
-            <img className={styles.icon} alt="" src="/icon3.svg" />
+            <img className={styles.icon} alt="" src="/payment/icon3.svg" />
             <div className={styles.secureConnection}>Secure Connection</div>
           </div>
         </div>
@@ -112,7 +116,7 @@ const AddPayment = () => {
           onClick={onPaymentMethodContainerClick}
         >
           <div className={styles.iconArea}>
-            <img className={styles.icon} alt="" src="/icon4.svg" />
+            <img className={styles.icon} alt="" src="/payment/icon4.svg" />
           </div>
           <div className={styles.mastercardEndingIn}>
             MasterCard ending in 4242
@@ -123,7 +127,7 @@ const AddPayment = () => {
           onClick={onPaymentMethodContainer1Click}
         >
           <div className={styles.iconArea}>
-            <img className={styles.icon} alt="" src="/icon4.svg" />
+            <img className={styles.icon} alt="" src="/payment/icon4.svg" />
           </div>
           <div className={styles.mastercardEndingIn}>
             VISA Debit ending in 2894
