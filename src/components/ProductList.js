@@ -10,8 +10,8 @@ const ProductList = () => {
   return (
     <div className={styles.contentArea}>
       <div className={styles.row01}>
-        <Link to="/ItemView" className="product-details">
-          <div className={styles.itemCard}>
+        <div className={styles.itemCard}>
+          <Link to="/ItemView" className="product-details">
             <div
               className={styles.productImage}
               onClick={onProductImageContainerClick}
@@ -24,22 +24,19 @@ const ProductList = () => {
                 />
               </div>
             </div>
-            <div className={styles.content}>
-              <div className={styles.itemName}>Apple Watch</div>
-              <div className={styles.smallDescription}>Series 5 SE</div>
-              <div className={styles.action}>
-                <div className={styles.itemName}>$ 529.99</div>
-                <div className={styles.button}>
-                  <img
-                    className={styles.icon}
-                    alt=""
-                    src="/dashboard/icon.svg"
-                  />
-                </div>
+          </Link>
+          <div className={styles.content}>
+            <div className={styles.itemName}>Apple Watch</div>
+            <div className={styles.smallDescription}>Series 5 SE</div>
+            <div className={styles.action}>
+              <div className={styles.itemName}>$ 529.99</div>
+              <div className={styles.button}>
+                <img className={styles.icon} alt="" src="/dashboard/icon.svg" />
               </div>
             </div>
           </div>
-        </Link>
+        </div>
+
         <div className={styles.itemCard1}>
           <div className={styles.productImage2}>
             <div className={styles.productImage1}>
