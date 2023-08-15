@@ -1,10 +1,13 @@
 import { useCallback } from "react";
 import styles from "./Checkout.module.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 const Checkout = () => {
-  const onActionsContainerClick = useCallback(() => {
-    // Please sync "Add-Address" to the project
-  }, []);
+  const location = useLocation();
+  const { addressData } = location.state || {};
+
+  const navigate = useNavigate();
 
   const onButtonContainer1Click = useCallback(() => {
     // Please sync "Add-Payment" to the project
@@ -23,12 +26,20 @@ const Checkout = () => {
           </div>
           <div className={styles.conent}>
             <div className={styles.currentAddress}>
-              <div className={styles.johnMaker}> John Maker</div>
-              <div className={styles.johnMaker}>123 Plae Grond Stret</div>
-              <div className={styles.johnMaker}>Vermont, California</div>
-              <div className={styles.johnMaker}>United States of America</div>
+              <div className={styles.johnMaker}>
+                {addressData?.shippingName}
+              </div>
+              <div className={styles.johnMaker}>{addressData?.streetName}</div>
+              <div className={styles.johnMaker}>{addressData?.city}</div>
+              <div className={styles.johnMaker}>
+                {addressData?.stateProvince}
+              </div>
+              <div className={styles.johnMaker}>{addressData?.country}</div>
             </div>
-            <div className={styles.actions} onClick={onActionsContainerClick}>
+            <div
+              className={styles.actions}
+              onClick={() => navigate("/AddAddress")}
+            >
               <div className={styles.button}>
                 <div className={styles.loremIpsumDolor}>Change</div>
               </div>
@@ -75,9 +86,14 @@ const Checkout = () => {
               </div>
             </div>
             <div className={styles.actions1}>
-              <div className={styles.button2} onClick={onButtonContainer1Click}>
-                <div className={styles.loremIpsumDolor}>Change</div>
-              </div>
+              <Link to="/AddPayment" className="payment-page">
+                <div
+                  className={styles.button2}
+                  onClick={onButtonContainer1Click}
+                >
+                  <div className={styles.loremIpsumDolor}>Change</div>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -445,7 +461,7 @@ const Checkout = () => {
         </div>
 
         <div className={styles.divider} />
-        <Link to="/AddPayment" className="payment-details">
+        <Link to="/Success" className="success-message">
           <div className={styles.button6}>
             <div className={styles.loremIpsumDolor}>Place your order</div>
           </div>

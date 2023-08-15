@@ -9,7 +9,6 @@ import ItemView from "./pages/ItemView";
 import Checkout from "./pages/Checkout";
 import Bag from "./pages/Bag";
 import AddPayment from "./pages/AddPayment";
-import AddAddress from "./pages/AddAddress";
 import { useEffect } from "react";
 
 function App() {
@@ -56,7 +55,6 @@ function App() {
       <Route path="/Checkout" element={<Checkout />} />
       <Route path="/Bag" element={<Bag />} />
       <Route path="/AddPayment" element={<AddPayment />} />
-      <Route path="/AddAddress" element={<AddAddress />} />
     </Routes>
   );
 }
